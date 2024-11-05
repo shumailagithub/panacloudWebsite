@@ -1,0 +1,1050 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    font-family: monospace;
+  }
+.imgDiv{
+    position: absolute;
+    z-index: -1;
+    /* display: none;  */
+}
+.imgDiv .img{
+     width: 100%;
+     display: block;
+}
+.header{
+    width: 100%;
+    
+}
+.headerTopDiv {
+    width: 100%;
+    height: 60px;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialIcon{
+    width: 300px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 10px;
+    
+}
+.circleIcon{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: 303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#303030;
+    /* background-color: blue; */   
+}
+.phoneDiv{
+    width: 800px;
+    height: 65px;
+
+    
+    align-items: start;
+    padding-top:  20px;
+    padding-left: 10px;
+    display: flex; 
+    align-items: center; 
+    padding: 8px 2px 2px 12px;
+
+}
+ 
+p {
+    font-size: x-large;
+    gap: 10px;
+    color: white;
+    margin-left: 10px;
+}
+.callBtn{
+    width: 200px;
+    height: 40px;
+   margin-left: 170px;
+   padding: 6px 8px;
+   border-radius: 8px;
+   border: none;
+   outline: none;
+   background-color: #a2d84c;
+   font-size: 14px;
+   font-weight: 600;
+}
+.navbar {
+    width: 100%;
+    height: 125px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    margin-top: 0px;
+}
+.navbar img {
+    margin-left: 31px;
+    margin-top: 14px;
+}
+.navList {
+    width: 1222px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* border: 2px solid black; */
+    margin-left: 200px;
+    background-color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+ ul{
+    display: flex;
+    gap: 22px;
+ }
+
+
+ .navList li {
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    padding-left: 12px;
+    margin-top: 10px;
+    
+}
+
+                      /* Swiper */
+.swiperImgDiv {
+    width: 100%;
+    height: 750px;
+    
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 760px;
+    /* border: 2px solid red; */
+}
+  .img-content {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 231px;
+    left: 0;
+    
+}
+.leftDiv {
+    width: 470px;
+    height: 110px;
+    background-color: #a2d84c;
+}
+.rightDiv {
+    width: 470px;
+    height: 110px;
+    background-color: #a2d84c;
+}
+
+.img-content h1 {
+    width: 49%;
+    height: 110px;
+    color: white;
+    font-size: 80px;
+    padding-left: 50px;
+    padding-bottom: 33px;
+    font-family: monospace;
+    /* border: 1px solid black; */
+}
+.img-contentTopDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.imgContentBottomDiv {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+.imgContentBottomDiv pre {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btnDiv{
+    text-align: center;
+}   
+.btnDiv button {
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    padding: 8px 21px;
+    border: none;
+    outline: none;
+    background-color: #febd19;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.advantagDiv {
+    width: 100%;
+    height: 703px;
+    /* border: 2px solid red; */
+    margin-top: -30px;
+    margin-left: 0px;
+    text-align: center;
+    align-items: center;
+}
+.advantagTop {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    /* border: 2px solid blue; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.advantagTop h1 {
+    font-size: 64px;
+    margin-top: 41px;
+    font-weight: 800;
+    color: #678e19;
+    text-align: center;
+    margin-right: 60px;
+}
+.sp1{
+color: black;
+}
+.advantagDiv pre {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    color: rgb(182, 180, 180);
+    font-weight: 300;
+    margin-left: 0px;
+    font-family: monospace;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.bottomIconDiv {
+    width: 100%;
+    height: 400px;
+    margin-top: 45px;
+    display: flex;
+    gap: 18px;
+    margin-left: 130px;
+}
+
+.iconDiv {
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: -90px;
+    /* border: 2px solid black; */
+}
+.roundDiv {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+
+    &:hover{
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    }  
+}
+.bottomIconDiv {
+    width: 100%;
+    height: 400px;
+    margin-top: 45px;
+    display: flex;
+   
+    gap: 18px;
+}
+
+    .iconH2 {
+        font-family: monospace;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 20px;
+        width: 100%;
+        height: 100px;
+        /* border: 2px solid blue; */
+    }
+
+.iconH2 pre {
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 500;
+    line-height: 1.5;
+    height: 90px;
+}
+.aboutUsDiv {
+    width: 100%;
+    height: 696px;
+    border: 2px solid transparent;
+    background-image: url(./pana_cloud_website/assets/hand-pic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 70px;
+}
+.aboutUsDiv h1 {
+    color: #678e19;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 20px;
+    font-family: monospace;
+    margin-top: 25px;
+    margin-left: -40px;
+}
+.aboutUsDiv .paraDiv {
+    margin-top: 35px;
+    margin-left: 110px;
+    width: 740px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: monospace;
+    margin-right: 20px;
+    height: 340px;
+    border: 2px solid transparent;
+}
+.btnDiv2 button {
+    width: 280px;
+    height: 70px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    margin-right: 950px;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-left: 120px;
+    background-color: #febd19;
+}
+.our_serveses {
+    width: 100%;
+    height: 640px;
+    border: 2px solid transparent;
+    text-align: center;
+}
+.our_serveses .our_serveses_topDiv {
+    width: 100%;
+    height: 150px;
+    border: 2px solid transparent;
+}
+.pdiv {
+    width: 100%;
+    height: 1060px;
+    border: 4px solid transparent;
+}
+
+
+.our_serveses h1 {
+    width: 100%;
+    height: 80px;
+    border: 2px solid transparent;
+    font-family: monospace;
+    font-size: 70px;
+    color: #678e19;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: 600;
+    margin-left: 28px;
+    font-weight: 600;
+}
+.our_serveses .sp1{
+    color: black;
+}
+.our_serveses pre {
+    width: 100%;
+    height: 60px;
+    border: 2px solid transparent;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(182, 180, 180);
+    font-weight: 600;
+    margin-top: 10px;
+}
+.our_serveses .our_serveses_bottomDiv {
+    width: 100%;
+    height: 400px;
+    border: 2px solid transparent;
+    padding-right: 20px;
+    display: flex;
+    gap: 50px;
+}
+.starCard {
+    position: relative;
+    width: 570px;
+    height: 307px;
+    border: 2px solid transparent;
+    margin-top: 92px;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-align: center;
+    gap: 20px;
+    padding-right: 0px;
+    display: flex;
+    background-color: #f2f2f2;
+    transition: all Is ease-in-out;
+
+    &:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transform: scale(1.03);
+    }
+}
+.roundDiv-star {
+    position: absolute;
+    top: -55px;
+    left: 111px;
+    width: 108px;
+    height: 106px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd19;
+}
+.starCard h1{ 
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+.starCard h1 {
+    position: absolute;
+    top: 78px;
+    left: -9px;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: 12px;
+    color: black;
+}
+.starCard pre {
+    position: absolute;
+    top: 115px;
+    left: -29px;
+    color: rgb(182, 180, 180);
+}
+.starCard a {
+    position: absolute;
+    top: 211px;
+    left: 95px;
+    color: #a2d84c;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.blackDiv {
+    width: 100%;
+    height: 1060px;
+    border: 4px solid transparent;
+    background-color: #212121;
+    align-items: center;
+    text-align: center;
+}
+
+.blackDivHeader {
+    width: 100%;
+    height: 280px;
+     border: 2px solid transparent;
+    text-align: center;
+}
+.blackDivHeader h1 {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: monospace;
+    color: #678e19;
+    margin-top: 45px;
+}
+.blackDiv pre {
+    color: white;
+    font-size: 21px;
+    font-weight: 300px;
+    font-family: monospace;
+    margin-top: 10px;
+}
+.blackDiv ul {
+    text-decoration: none;
+    height: 72px;
+    border: 2px solid transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: monospace;
+    color: white;
+    gap: 30px;
+   
+}
+.blackDiv ul li{
+    
+    list-style: none;
+    &:hover{
+        color: orange;
+    }    
+}
+
+.blackBottomDiv {
+    width: 100%;
+    height: 765px;
+    border: 2px solid transparent;
+}
+.blackBottomDiv2 {
+    width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+   
+} 
+.blackBottomDiv2 .bottumDivCard {
+    width: 325px;
+    height: 325px;
+    border: 3px solid transparent;
+
+}
+.bottumDivCard{
+    align-items: center;
+}
+.bottumDivCard :hover{
+    background-color: #EF4136;
+
+}
+
+.processMainDiv {
+    width: 100%;
+    height: 630px;
+    border: 3px solid transparent;
+    margin-top: 70px;
+}
+.processMainDiv h1{
+color: #678e19;
+text-align: center;
+font-size: 75px;
+margin-top: 0px;
+font-family: monospace;
+font-weight: 600;
+}
+.processMainDiv pre {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    color: rgb(182, 180, 180);
+    font-weight: 600;
+    margin-left: 70px;
+    font-family: monospace;
+    text-align: center;
+    border: 2px solid transparent;
+    margin-bottom: 43px;
+}
+
+.processIconDiv {
+    width: 1480px;
+    height: 350px;
+    border: 2px solid transparent;
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    column-gap: normal;
+    gap: 28px;
+}
+.processIconDiv .IconDiv {
+    width: 220px;
+    height: 100%;
+}
+.processIconDiv .IconDiv .circleDiv {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #d2d3d5;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+}
+.countDiv {
+    position: absolute;
+    top: -25px;
+    left: 74px;
+    margin: auto;
+    height: 47px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #d2d3d5;
+    background-color:#febd19 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.IconDiv h1 {
+    color:#000000 ;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.IconDiv pre {
+    color: rgb(182, 180, 180); 
+    font-weight: 600;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 5px;
+}
+.aboutMainDiv {
+    width: 100%;
+    height: 770px;
+    border: 2px solid transparent;
+    text-align: center;
+
+}
+.aboutMainDiv h1 {
+    
+    color: #678e19;
+    font-size: 75px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.aboutMainDiv pre {
+    color: rgb(182, 180, 180);
+    font-weight: 600;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 5px;
+}
+.peoplesReviewDiv {
+    margin: auto;
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+    
+}
+.reviewDiv {
+    width: 750px;
+    height: 160px;
+    display: flex;
+    
+}
+.profileDiv {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.profileDiv img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.reviewRightDiv {
+        width: 490px;
+        height: 130px;
+        margin-left: 20px;
+        border: 2px solid transparent;
+        color: red;
+    }
+.reviewRightDiv pre {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 5px;
+    font-family: monospace;
+    margin-right: 52160px;
+}
+.reviewRightDiv h2 {
+    font-family: monospace;
+    margin-top: 14px;
+    color: black;
+    font-size: 22px;
+    margin-right: 300px;
+}
+.skillsDiv {
+    width: 100%;
+    height: 694px;
+    border: 2px solid black;
+    text-align: center;
+}
+.skillsDiv h1 {
+    color: #678e19;
+    font-size: 75px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.skillsDiv pre {
+    color: rgb(182, 180, 180);
+    font-weight: 600;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 140px;
+}
+.persentageCircleDiv {
+    width: 1105px;
+    height: 354px;
+    margin-top: 70px;
+    border: 2px solid transparent;
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+
+}
+.DivForCircleitems {
+    width: 252px;
+    height: 352px;
+    text-align: center;
+    border: 2px solid transparent;
+    margin-right: 0px;
+}
+.outerDiv {
+    width: 242px;
+    height: 242px;
+    margin-left: 0px;
+    margin-top: 1px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerCircleDiv {
+    width: 190px;
+    height: 190px;
+    margin-left: 50px;
+    margin-top: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.deepCircleDiv {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    font-weight: 800;
+    font-family: monospace;
+}
+.DivForCircleitems h1 {
+    margin-top: 100px;
+    color: black;
+    font-size: 27px;
+    font-weight: 550;
+    margin-left: 20px
+   
+}
+.contactDiv {
+    width: 100%;
+    height: 490px;
+    border: 2px solid transparent;
+    background-color: #8ec63f;
+}
+.contactDiv h1 {
+    color: white;
+    font-size: 110px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: center;
+    font-family: monospace;
+    margin-left: 0px;
+}
+
+.contactInputDiv {
+    width: 1440px;
+    height: 95px;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-top: 40px;
+    text-align: left;
+    display: flex;
+    gap: 60px;
+}
+.contactInputDiv input {
+    width: 340px;
+    height: 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: monospace;
+    padding-left: 52px;
+    margin-left: 0px;
+    color: #bdbec0;
+}
+.contactInputDiv button{
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: monospace;
+    padding-left: 52px;
+    color: black;
+    background-color: #febd19;
+    border-bottom: 5px solid #fe831c;
+} 
+    
+.contactDiv pre{
+    color: white;
+    margin-bottom: 20px;
+
+}
+.mapDiv {
+    width: 100%;
+    height: 920px;
+    border: 2px solid transparent;
+}
+.mapDiv pre {
+    color: rgb(182, 180, 180);
+    margin-bottom: 40px;
+}
+.mapWithIcon {
+    width: 1330px;
+    height: 43px;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-top: 40px;
+}
+.mapImgIcon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent;
+    display: flex;
+    margin-top: 0px;
+}
+.mapDiv .contactUsPre {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: monospace;
+    margin-top: -40px;
+    margin-right: -40px;
+    color: #242021;
+}
+.mapphoneMainDiv {
+    width: 1160px;
+    height: 60px;
+    border: 2px solid transparent;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mapphoneMainDiv p {
+    color: #242021;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: monospace;
+    margin-right: 70px;
+}
+.map {
+    width: 100%;
+    height: 540px;
+    border: 2px solid transparent;
+    margin-top: 50px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+footer {
+    width: 1520px;
+    height: 475px;
+    border: 2px solid transparent;
+    padding-top: 70px;
+    margin-left: 190px;
+    margin: auto;
+    display: flex;
+    background-color: #678e19;
+}
+footer .footerFirstDiv {
+    width: 345px;
+    height: 370px;
+    border: 2px solid transparent;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-wrap: wrap;
+}
+footer img {
+    width: 300px;
+    margin-top: -18px;
+    margin-left: -120px;
+}
+.footerFirstDiv p {
+    width: 360px;
+    height: 30px;
+    font-size: 22px;
+    color: white;
+    font-family: monospace;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 0px;
+
+}
+
+.footerFirstDiv .copyRight {
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+    font-weight: 600;
+    margin-top: 165px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+.footerSecondDiv {
+    width: 230px;
+    height: 355px;
+    border: 2px solid transparent;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 145px;
+    text-align: left;
+    border-right: 2px solid #8cc63e;
+}
+footer .footerSecondDiv h1 {
+    
+    font-size: 40px;
+    color: white;
+    margin-top: -9px;
+}
+.footerSecondDiv ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: -8px;
+}
+.footerSecondDiv ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+.footerSecondDiv ul li a {
+    color: white;
+    font-weight: 600;
+    margin-left: -48px;
+}
+
+footer .footerThirdDiv {
+    width: 300px;
+    height: 355px;
+    border: 2px solid transparent;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 52px;
+    row-gap: 145px;
+    text-align: left;
+    border-right: 2px solid #8cc63e;
+}
+footer .footerThirdDiv h1 {
+    
+    font-size: 40px;
+    color: white;
+    margin-top: -9px;
+}
+.footerThirdDiv ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: -8px;
+    margin-left: -38px;
+}
+.footerThirdDiv ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+.footerThirdDiv ul li a {
+    color: white;
+    font-weight: 600;
+    margin-left: -48px;
+}
+
+footer .footerForthDiv {
+    width: 300px;
+    height: 355px;
+    border: 2px solid transparent;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 52px;
+    
+    text-align: left;
+    
+}
+footer .footerForthDiv h1 {
+    font-size: 40px;
+    color: white;
+    margin-left: 8px;
+    margin-top: -9px;
+}
+footer .footerForthDiv p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 13px;
+    padding-top: 2px;
+}
+footer #footerForthDivIcons{
+    margin-left: -30px;
+}
